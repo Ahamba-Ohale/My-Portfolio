@@ -106,7 +106,7 @@ img{
 }
 
 /* ============= Variables Dark theme =============== */
-body.dark-theme {
+/* body.dark-theme {
     --first-color: hsl(14, 80%, 50%);
     --black-color: hsl(0, 0%, 18%);
     --black-color-light: hsl(0, 0%, 30%);
@@ -114,9 +114,9 @@ body.dark-theme {
     --text-color: hsl(0, 0%, 70%);
     --body-color: hsl(0, 0%, 8%);
     --container-color: hsl(0, 0%, 12%);
-}  
+}   */
 
-/* body.dark-theme {
+body.dark-theme {
     --first-color: hsl(31, 76%, 74%);
     --button-color: hsl(0, 0%, 24%);
     --button-color-alt: hsl(0, 0%, 28%);
@@ -125,7 +125,7 @@ body.dark-theme {
     --body-color: hsl(0, 0%, 12%);
     --container-color: hsl(0, 0%, 16%);
     --border-color: hsl(0, 0%, 20%);
-  } */
+  }
 
 /* ============= 
     Color changes in some parts of 

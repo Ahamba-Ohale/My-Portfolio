@@ -1,530 +1,834 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css"
+      crossorigin=""
+    />
 
     <!--===============REMIXICONS=================-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css"
+      crossorigin=""
+    />
 
     <!--===============CSS=================-->
-    <link rel="stylesheet" href="asset/CSS/index.css">
+    <link rel="stylesheet" href="asset/CSS/index.css" />
 
     <title>OhaleHub Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--===============Header=================-->
     <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav__logo">
-                <span class="nav__logo-circle">A</span>
-                <span class="nav__logo-name">OhaleHub.</span>
-            </a>
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <span class="nav__logo-circle">A</span>
+          <span class="nav__logo-name">OhaleHub.</span>
+        </a>
 
-            <div class="nav__menu" id="nav-menu">
-                <span class="nav__title">Menu</span>
+        <div class="nav__menu" id="nav-menu">
+          <span class="nav__title">Menu</span>
 
-                <h3 class="nav__name">Ahamba</h3>
+          <h3 class="nav__name">Ahamba</h3>
 
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">Home</a>
-                    </li>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
 
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link">About Me</a>
-                    </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About Me</a>
+            </li>
 
-                    <li class="nav__item">
-                        <a href="#projects" class="nav__link">Projects</a>
-                    </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
 
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link nav__link-button">Contact Me</a>
-                    </li>
-                </ul>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link nav__link-button"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
 
-                <!-- Close button -->
-                <div class="nav__close" id="nav-close">
-                    <i class="ri-close-line"></i>
-                </div>
-            </div>
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
 
-            <div class="nav__buttons">
-                <!-- Theme button -->
-                <i class="ri-moon-line change-theme" id="theme-button"></i>
+        <div class="nav__buttons">
+          <!-- Theme button -->
+          <button class="change-theme" id="theme-button">
+            <i class="ri-moon-line"></i>
+          </button>
 
-                <!-- Toogle button -->
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-menu-4-line"></i>
-                </div>
-            </div>
-        </nav>
+          <!-- Toogle button -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-4-line"></i>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!--============== Main =================-->
     <main class="main">
-        <!--============== Home =================-->
-        <section class="home section" id="home">
-            <div class="home__container container grid">
-               <h1 class="home__name">
-                Ohale Ahamba
-               </h1>
+      <!--============== Home =================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <h1 class="home__name">
+            Ohale Ahamba <br /><span style="font-size: 13px"
+              ><h5>Founder: HaleTech Services</h5></span
+            >
+          </h1>
 
-               <div class="home__perfil">
-                    <div class="home__image">
-                        <img src="asset/images/home.png" alt="image" class="home__img">
-                        <div class="home__shadow"></div>
+          <div class="home__perfil">
+            <div class="home__image">
+              <img src="asset/images/home.png" alt="image" class="home__img" />
+              <div class="home__shadow"></div>
 
-                        <img src="asset/images/curved-arrow-1.png" alt="" class="home__arrow">
-                        <img src="asset/images/random-lines.png" alt="" class="home__line">
-                    
-                        <div class="geometric-box"></div>
-                    </div>
+              <img
+                src="asset/images/curved-arrow-1.png"
+                alt=""
+                class="home__arrow"
+              />
+              <img
+                src="asset/images/random-lines.png"
+                alt=""
+                class="home__line"
+              />
 
-                    <div class="home__social">
-                       
-                        <a href="https://www.linkedin.com/in/ahamba-ohale" target="_blank" class="home__social-link">
-                            <i class="ri-linkedin-box-line"></i>
-                        </a>
-                        <a href="https://github.com/Ahamba-Ohale" target="_blank" class="home__social-link">
-                            <i class="ri-github-line"></i>
-                        </a>
-                    </div>
-               </div>
-
-               <div class="home__info">
-                    <p class="home__description">
-                        <b>Fullstack Developer</b>, with knowledge in 
-                        web development and design, I offer the best projects
-                        resulting in quality work.
-                    </p>
-
-                    <a href="#about" class="home__scroll">
-                        <div class="home__scroll-box">
-                            <i class="ri-arrow-down-s-line"></i>
-                        </div>
-
-                        <span class="home__scroll-text">Scroll Down</span>
-                    </a>
-               </div>
+              <div class="geometric-box"></div>
             </div>
-        </section>
-        <!--============== About =================-->
-        <section class="about section" id="about">
-            <div class="about__container container grid">
-                <h2 class="section__title-1">
-                    <span>About Me</span>
-                </h2>
 
-                <div class="about__perfil">
-                    <div class="about__image">
-                        <img src="asset/images/abouts.jpg" alt="image" class="about__img">
-
-                        <div class="about__shadow"></div>
-
-                        <div class="geometric-box"></div>
-                        <img src="asset/images/random-lines.png" alt="" class="about__line">
-                        <div class="about__box"></div>
-                    </div>
-                </div>
-
-                <div class="about__info">
-                    <p class="about__description">
-                        Passionate about creating <b>Web pages</b> with 
-                        <b>UI/UX User Interface</b>, I have years of 
-                        experience and many clients are happy with
-                        the projects carried out.
-                    </p>
-
-                    <ul class="about__list">
-                        <li class="about__item">
-                            <b>My skills Are:</b> HTML, CSS, Javascript, 
-                            React, Git & GitHub, Bootstrap,
-                            Tailwind, NodeJS, MongoDB, PHP/Laravel & MySQL.
-                        </li>
-                    </ul>
-
-                    <div class="about__buttons">
-                        <a href="./asset/Resume/Software Resume.pdf" class="button">
-                            <i class="ri-send-plane-line"></i> Resume
-                        </a>
-
-                        <a href="https://www.linkedin.com/in/ahamba-ohale" target="_blank" class="button__ghost">
-                            <i class="ri-linkedin-box-line"></i>
-                        </a>
-                    </div>
-                </div>
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/ahamba-ohale"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+              <a
+                href="https://github.com/Ahamba-Ohale"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-github-line"></i>
+              </a>
             </div>
-        </section>
-        <!--============== SERVICES =================-->
-        <section class="services section">
+          </div>
+
+          <div class="home__info">
+            <p class="home__description">
+              <b>I am a Fullstack Developer</b> with expertise in web
+              development and design, delivering high-quality, impactful
+              projects. In addition to my development skills, I am a Data
+              Analyst and DevOps professional, ensuring comprehensive and
+              efficient solutions tailored to the unique needs of each project.
+            </p>
+
+            <a href="#about" class="home__scroll">
+              <div class="home__scroll-box">
+                <i class="ri-arrow-down-s-line"></i>
+              </div>
+
+              <span class="home__scroll-text">Scroll Down</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!--============== About =================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <h2 class="section__title-1">
+            <span>About Me</span>
+          </h2>
+
+          <div class="about__perfil">
+            <div class="about__image">
+              <img
+                src="asset/images/abouts.jpg"
+                alt="image"
+                class="about__img"
+              />
+
+              <div class="about__shadow"></div>
+
+              <div class="geometric-box"></div>
+              <img
+                src="asset/images/random-lines.png"
+                alt=""
+                class="about__line"
+              />
+              <div class="about__box"></div>
+            </div>
+          </div>
+
+          <div class="about__info">
+            <p class="about__description">
+              With deep expertise in <b>web/mobile/software development</b>,
+              <b>data analysis</b>, and <b>DevOps</b>, I deliver high-quality
+              projects that meet clients' needs in both development and
+              operational services. My work consistently reflects a strong
+              command of UI/UX design principles, , advanced data insights, and
+              reliable DevOps practices, leading to successful outcomes for
+              satisfied clients.
+            </p>
+
+            <ul class="about__list">
+              <li class="about__item">
+                <b>My Programming Skills:</b> HTML, CSS, JavaScript, Tailwind, Git
+                & GitHub, MERN-Stack, PHP/Laravel, Python/Django, MySQL & React-Native
+              </li>
+              <li class="about__item">
+                <b>My Data Analysis Skills:</b> Excel, Power BI, Python, SQL
+              </li>
+              <li class="about__item">
+                <b>My DevOps Skills:</b> Docker, Kubernetes, Jenkins, AWS,
+                Azure, Ansible, Terraform
+              </li>
+            </ul>
+
+            <div class="about__buttons">
+              <a href="./asset/Resume/Software Resume.pdf" class="button">
+                <i class="ri-send-plane-line"></i> Resume
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/ahamba-ohale"
+                target="_blank"
+                class="button__ghost"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--============== SERVICES =================-->
+      <section class="services section">
+        <h2 class="section__title-2">
+          <span>Services</span>
+        </h2>
+
+        <div class="services__container container grid">
+          <article class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-layout-4-line"></i>
+              </div>
+
+              <h2 class="services__title">Web Design</h2>
+
+              <p class="services__description">
+                Beautiful and elegant designs with interfaces that are
+                intuitive, efficient and pleasant to use for the user.
+              </p>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-code-box-line"></i>
+              </div>
+
+              <h2 class="services__title">Development</h2>
+
+              <p class="services__description">
+                Custom Web Development tailored to your specifications, designed
+                to provide a flawless user experience.
+              </p>
+            </div>
+          </article>
+          <article class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-smartphone-line"></i>
+              </div>
+
+              <h2 class="services__title">Mobile App</h2>
+
+              <p class="services__description">
+                Design and transform website projects into mobile apps to
+                provide a seamless user experience.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!--============== PROJECTS =================-->
+      <section class="projects section" id="projects">
+        <h2 class="section__title-1">
+          <span>Projects.</span>
+        </h2>
+
+        <div class="projects__container container grid">
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="asset/images/Dartcom.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://dartcomprojects.com.ng/"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Website</h3>
+              <h2 class="projects__title">Dartcom Projects</h2>
+
+              <p class="projects__description">
+                Dartcom Projects Nigeria Ltd is a company that is known
+                internationally for providing engineering solutions in the area
+                of construction and fabrication.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://dartcomprojects.com.ng/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+
+              <a
+                href="https://dartcomprojects.com.ng/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="asset/images/S-Balf.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://s-balf.onrender.com/"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Website</h3>
+              <h2 class="projects__title">S-Balf Foundation</h2>
+
+              <p class="projects__description">
+                The Sunday Basil Agba Legacy Foundation (SBALF) is a non-profit
+                organization based in Nigeria created to continue the legacies
+                of the late Chief Sunday Basil Agba which are fostering Peace
+                Unity Hope Equal Opportunity and Progress.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://s-balf.onrender.com/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+
+              <a
+                href="https://s-balf.onrender.com/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="asset/images/project-01.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://ahamba-ohale.github.io/E-Commerce-Website/"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Website</h3>
+              <h2 class="projects__title">E-Commerce Website</h2>
+
+              <p class="projects__description">
+                This is an E-Commerce Website by Ahamba Ohale, showcasing a
+                fully functional online shopping experience using HTML, CSS, and
+                JavaScript. With a modern, user-friendly design, this project
+                displays my proficiency in front-end web development and
+                showcases my ability to create engaging, visually appealing
+                websites.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/Ahamba-Ohale/E-Commerce-Website.git"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+
+              <a
+                href="https://ahamba-ohale.github.io/E-Commerce-Website/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="asset/images/project-04.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://ahamba-ohale.github.io/Consultation-agency/"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Website</h3>
+              <h2 class="projects__title">Consultation-agency website</h2>
+
+              <p class="projects__description">
+                This is an Consultation-agency Website by Ahamba Ohale,
+                showcasing a fully functional online consultation agency using
+                HTML, CSS, and JavaScript. With a modern, user-friendly design,
+                this project displays my proficiency in front-end web
+                development and showcases my ability to create engaging,
+                visually appealing websites.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/Ahamba-Ohale/Consultation-agency.git"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+
+              <a
+                href="https://ahamba-ohale.github.io/Consultation-agency/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="asset/images/project-05.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://halehealth-front.onrender.com/"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">App</h3>
+              <h2 class="projects__title">Doctor Appointment App</h2>
+
+              <p class="projects__description">
+                The Application is a platform that facilitates communication
+                between doctors and patients. The platform is designed to
+                provide a convenient and accessible way for patients to connect
+                with medical professionals, and for doctors to their
+                interactions with patients. The project includes features such
+                as the ability to search for doctors by location, specialty, or
+                name, and for doctors to provide prescriptions to patients.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/Ahamba-Ohale/MyDoctor-App.git"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+
+              <a
+                href="https://halehealth-front.onrender.com/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="asset/images/project-3.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://workout-front-indol.vercel.app/"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">App</h3>
+              <h2 class="projects__title">Workout App</h2>
+
+              <p class="projects__description">
+                This project is a simple workout tracker application called
+                "Workout Buddy". It allows users to keep track of their progress
+                during workouts. The source code for the application is written
+                in JavaScript and uses a MongoDB database to store workout data.
+                The application is built using the Express.js framework for the
+                backend, and it has a simple user interface for adding and
+                viewing workout information.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://workout-front-indol.vercel.app/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+
+              <a
+                href="https://github.com/Ahamba-Ohale/Workout-Tracker.git"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="asset/images/project-02.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://two34-inspired-events-n8sz.onrender.com/"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Website</h3>
+              <h2 class="projects__title">
+                234 Inspired Event Planning Website
+              </h2>
+
+              <p class="projects__description">
+                This is an Event Planning Website by Ahamba Ohale, showcasing a
+                fully functional online experience using MERN stack
+                technologies. With a modern, user-friendly design, this project
+                displays my proficiency in full-stack web development and
+                showcases my ability to create engaging, visually appealing
+                websites.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a href="#" target="_blank" class="projects__link">
+                <i class="ri-github-line"></i> View
+              </a>
+
+              <a
+                href="https://two34-inspired-events-n8sz.onrender.com/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="asset/images/project-03.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://greattowersspecialisthospital.onrender.com/"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Software</h3>
+              <h2 class="projects__title">Hospital Management System</h2>
+
+              <p class="projects__description">
+                This project demonstrates my skills in full-stack development,
+                as well as my ability to design and implement a complex SaaS
+                application from scratch.The hospital management system includes
+                features such as user authentication and authorization, custom
+                hooks for handling user login, signup, and logout, a
+                user-friendly interface for managing patients, doctors,
+                appointments, and medical records, and a microservices
+                architecture for scalability and reliability. The application
+                was developed using the MERN stack and deployed as a SaaS
+                application. Unit tests were written for the application's
+                components and hooks using Jest and React Testing Library.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/Ahamba-Ohale/Hospital-Management-Service-Frontend.git"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+
+              <a
+                href="https://github.com/Ahamba-Ohale/Hospital-Management-Service-Backend.git"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--============== CONTACT =================-->
+      <section class="contact section" id="contact">
+        <div class="contact__container grid">
+          <div class="contact__data">
             <h2 class="section__title-2">
-                <span>Services</span>
-            </h2>
-            
-            <div class="services__container container grid">
-                <article class="services__card">
-                    <div class="services__border"></div>
-
-                    <div class="services__content">
-                        <div class="services__icon">
-                            <div class="services__box"></div>
-                            <i class="ri-layout-4-line"></i>
-                        </div>
-
-                        <h2 class="services__title">Web Design</h2>
-
-                        <p class="services__description">
-                            Beautiful and elegant designs with 
-                            interfaces that are intuitive, efficient 
-                            and pleasant to use for the user.
-                        </p>
-                    </div>
-                </article>
-
-                <article class="services__card">
-                    <div class="services__border"></div>
-
-                    <div class="services__content">
-                        <div class="services__icon">
-                            <div class="services__box"></div>
-                            <i class="ri-code-box-line"></i>
-                        </div>
-
-                        <h2 class="services__title">Development</h2>
-
-                        <p class="services__description">
-                            Custom Web Development tailored to your 
-                            specifications, designed to provide a 
-                            flawless user experience.
-                        </p>
-                    </div>
-                </article>
-                <article class="services__card">
-                    <div class="services__border"></div>
-
-                    <div class="services__content">
-                        <div class="services__icon">
-                            <div class="services__box"></div>
-                            <i class="ri-smartphone-line"></i>
-                        </div>
-
-                        <h2 class="services__title">Mobile App</h2>
-
-                        <p class="services__description">
-                            Design and transform website projects
-                            into mobile apps to provide a seamless
-                            user experience.
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-        </section>
-        <!--============== PROJECTS =================-->
-        <section class="projects section" id="projects">
-            <h2 class="section__title-1">
-                <span>Projects.</span>
+              <span>Contact Me.</span>
             </h2>
 
-            <div class="projects__container container grid">
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="asset/images/project-01.png" alt="image" class="projects__img">
+            <p class="contact__description-1">
+              I will read all emails. Send me any message you want and I'll get
+              back to you.
+            </p>
 
-                        <a href="https://ahamba-ohale.github.io/E-Commerce-Website/" class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
+            <p class="contact__description-1">
+              I need your <b>Name</b> and <b>Email Address</b>, but you won't
+              receive anything other than your reply.
+            </p>
 
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Website</h3>
-                        <h2 class="projects__title">E-Commerce Website</h2>
+            <div class="geometric-box"></div>
+          </div>
 
-                        <p class="projects__description">
-                            This is an E-Commerce Website by Ahamba Ohale, showcasing a fully functional online shopping experience using HTML, CSS, and JavaScript. With a modern, user-friendly design, this project displays my proficiency in front-end web development and showcases my ability to create engaging, visually appealing websites.
-                        </p>
-                    </div>
+          <div class="contact__mail">
+            <h2 class="contact__title">Send Me A Message</h2>
 
-                    <div class="projects__buttons">
-                        <a href="https://github.com/Ahamba-Ohale/E-Commerce-Website.git" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> View    
-                        </a>
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__group">
+                <div class="contact__box">
+                  <input
+                    type="text"
+                    name="user_name"
+                    class="contact__input"
+                    id="name"
+                    required
+                    placeholder="First Name"
+                  />
+                  <label for="name" class="contact__label">First Name</label>
+                </div>
 
-                        <a href="https://ahamba-ohale.github.io/E-Commerce-Website/" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> View
-                        </a>
-                    </div>
-                </article>
+                <div class="contact__box">
+                  <input
+                    type="email"
+                    name="user_email"
+                    class="contact__input"
+                    id="email"
+                    required
+                    placeholder="Email Address"
+                  />
+                  <label for="email" class="contact__label"
+                    >Email Address</label
+                  >
+                </div>
+              </div>
 
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="asset/images/project-04.png" alt="image" class="projects__img">
+              <div class="contact__box">
+                <input
+                  type="text"
+                  name="user_subject"
+                  class="contact__input"
+                  id="subject"
+                  required
+                  placeholder="Subject"
+                />
+                <label for="subject" class="contact__label">Subject</label>
+              </div>
 
-                        <a href="https://ahamba-ohale.github.io/Consultation-agency/" class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
+              <div class="contact__box contact__area">
+                <textarea
+                  name="user_message"
+                  id="message"
+                  class="contact__input"
+                  required
+                  placeholder="Message"
+                ></textarea>
+                <label for="message" class="contact__label">Message</label>
+              </div>
 
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Website</h3>
-                        <h2 class="projects__title"> Consultation-agency website</h2>
+              <p class="contact__message" id="contact-message"></p>
 
-                        <p class="projects__description">
-                            This is an Consultation-agency Website by Ahamba Ohale, showcasing a fully functional online consultation agency using HTML, CSS, and JavaScript. With a modern, user-friendly design, this project displays my proficiency in front-end web development and showcases my ability to create engaging, visually appealing websites.
-                        </p>
-                    </div>
+              <button class="contact__button button">
+                <i class="ri-send-plane-line"></i> Send Message
+              </button>
+            </form>
+          </div>
 
-                    <div class="projects__buttons">
-                        <a href="https://github.com/Ahamba-Ohale/Consultation-agency.git" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> View    
-                        </a>
+          <div class="contact__social">
+            <img
+              src="asset/images/curved-arrow-1.png"
+              alt=""
+              class="contact__social-arrow"
+            />
 
-                        <a href="https://ahamba-ohale.github.io/Consultation-agency/" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> View
-                        </a>
-                    </div>
-                </article>
-               
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="asset/images/project-05.png" alt="image" class="projects__img">
+            <div class="contact__social-data">
+              <div>
+                <p class="contact__social-description-1">Do not send emails</p>
 
-                        <a href="https://halehealth-front.onrender.com/" class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
+                <p class="contact__social-description-2">
+                  Write me on my social networks
+                </p>
+              </div>
 
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">App</h3>
-                        <h2 class="projects__title">Doctor Appointment App</h2>
+              <div class="contact__social-links">
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-facebook-circle-line"></i>
+                </a>
 
-                        <p class="projects__description">
-                            The Application is a platform that facilitates communication between doctors and patients. The platform is designed to provide a convenient and accessible way for patients to connect with medical professionals, and for doctors to their interactions with patients. The project includes features such as the ability to search for doctors by location, specialty, or name, and for doctors to provide prescriptions to patients.
-                        </p>
-                    </div>
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
 
-                    <div class="projects__buttons">
-                        <a href="https://github.com/Ahamba-Ohale/MyDoctor-App.git" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> View    
-                        </a>
-
-                        <a href="https://halehealth-front.onrender.com/" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> View
-                        </a>
-                    </div>
-                </article>
-               
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="asset/images/project-3.png" alt="image" class="projects__img">
-
-                        <a href="https://workout-front-indol.vercel.app/" class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">App</h3>
-                        <h2 class="projects__title">Workout App</h2>
-
-                        <p class="projects__description">
-                            This project is a simple workout tracker application called "Workout Buddy". It allows users to keep track of their progress during workouts. The source code for the application is written in JavaScript and uses a MongoDB database to store workout data. The application is built using the Express.js framework for the backend, and it has a simple user interface for adding and viewing workout information.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://workout-front-indol.vercel.app/" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> View    
-                        </a>
-
-                        <a href="https://github.com/Ahamba-Ohale/Workout-Tracker.git" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> View
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="asset/images/project-02.png" alt="image" class="projects__img">
-
-                        <a href="https://two34-inspired-events-n8sz.onrender.com/" class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Website</h3>
-                        <h2 class="projects__title">Event Planning Website</h2>
-
-                        <p class="projects__description">
-                            This is an Event Planning Website by Ahamba Ohale, showcasing a fully functional online experience using MERN stack technologies. With a modern, user-friendly design, this project displays my proficiency in full-stack web development and showcases my ability to create engaging, visually appealing websites.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="#" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> View    
-                        </a>
-
-                        <a href="https://two34-inspired-events-n8sz.onrender.com/" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> View
-                        </a>
-                    </div>
-                </article>
-
-                
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="asset/images/project-03.png" alt="image" class="projects__img">
-
-                        <a href="https://greattowersspecialisthospital.onrender.com/" class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Software</h3>
-                        <h2 class="projects__title">Hospital Management System</h2>
-
-                        <p class="projects__description">
-                            This project demonstrates my skills in full-stack development, as well as my ability to design and implement a complex SaaS application from scratch.The hospital management system includes features such as user authentication and authorization, custom hooks for handling user login, signup, and logout, a user-friendly interface for managing patients, doctors, appointments, and medical records, and a microservices architecture for scalability and reliability. The application was developed using the MERN stack and deployed as a SaaS application. Unit tests were written for the application's components and hooks using Jest and React Testing Library.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/Ahamba-Ohale/Hospital-Management-Service-Frontend.git" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> View    
-                        </a>
-
-                        <a href="https://github.com/Ahamba-Ohale/Hospital-Management-Service-Backend.git" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> View
-                        </a>
-                    </div>
-                </article>
+                <a
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-linkedin-box-line"></i>
+                </a>
+              </div>
             </div>
-        </section>
-
-        <!--============== CONTACT =================-->
-        <section class="contact section" id="contact">
-            <div class="contact__container grid">
-                <div class="contact__data">
-                    <h2 class="section__title-2">
-                        <span>Contact Me.</span>
-                    </h2>
-
-                    <p class="contact__description-1">
-                        I will read all emails. Send me 
-                        any message you want and I'll get back to you.
-                    </p>
-
-                    <p class="contact__description-1">
-                        I need your <b>Name</b> and <b>Email Address</b>, but
-                        you won't receive anything other than your reply.
-                    </p>
-
-                    <div class="geometric-box"></div>
-                </div>
-
-                <div class="contact__mail">
-                    <h2 class="contact__title">
-                        Send Me A Message
-                    </h2>
-
-                    <form action="" class="contact__form" id="contact-form">
-                        <div class="contact__group">
-                            <div class="contact__box">
-                                <input type="text" name="user_name" class="contact__input" id="name" required placeholder="First Name">
-                                <label for="name" class="contact__label">First Name</label>
-                            </div>
-
-                            <div class="contact__box">
-                                <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email Address">
-                                <label for="email" class="contact__label">Email Address</label>
-                            </div>
-                        </div>
-                           
-                        <div class="contact__box">
-                                <input type="text" name="user_subject" class="contact__input" id="subject" required placeholder="Subject">
-                                <label for="subject" class="contact__label">Subject</label>
-                        </div>
-
-                        <div class="contact__box contact__area">
-                                <textarea name="user_message" id="message" class="contact__input" required placeholder="Message"></textarea>
-                                <label for="message" class="contact__label">Message</label>
-                        </div>
-
-                        <p class="contact__message" id="contact-message"></p>
-
-                        <button class="contact__button button">
-                            <i class="ri-send-plane-line"></i> Send Message
-                        </button>
-                    </form>
-                </div>
-
-                <div class="contact__social">
-                    <img src="asset/images/curved-arrow-1.png" alt="" class="contact__social-arrow">
-
-                    <div class="contact__social-data">
-                        <div>
-                            <p class="contact__social-description-1">
-                                Do not send emails
-                            </p>
-
-                            <p class="contact__social-description-2">
-                                Write me on my social networks                                
-                            </p>
-                        </div>
-
-                        <div class="contact__social-links">
-                            <a href="https://www.facebook.com/" target="_blank" class="contact__social-link">
-                                <i class="ri-facebook-circle-line"></i>
-                            </a>
-
-                            <a href="https://www.instagram.com/" target="_blank" class="contact__social-link">
-                                <i class="ri-instagram-line"></i>
-                            </a>
-                            
-                            <a href="https://www.linkedin.com/" target="_blank" class="contact__social-link">
-                                <i class="ri-linkedin-box-line"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!--============== Footer =================-->
     <footer class="footer">
-        <div class="footer__container container grid">
-            <ul class="footer__links">
-                <li>
-                    <a href="#about" class="footer__link">About</a>
-                </li>
+      <div class="footer__container container grid">
+        <ul class="footer__links">
+          <li>
+            <a href="#about" class="footer__link">About</a>
+          </li>
 
-                <li>
-                    <a href="#services" class="footer__link">Services</a>
-                </li>
-                
-                <li>
-                    <a href="#projects" class="footer__link">Projects</a>
-                </li>
-            </ul>
+          <li>
+            <a href="#services" class="footer__link">Services</a>
+          </li>
 
-            <span class="footer__copy">
-                &#169; All rights Reserved By 
-                <a href="">OhaleHub.</a>
-            </span>
-        </div>
+          <li>
+            <a href="#projects" class="footer__link">Projects</a>
+          </li>
+        </ul>
+
+        <span class="footer__copy">
+          &#169; All rights Reserved By
+          <a href="">OhaleHub.</a>
+        </span>
+      </div>
     </footer>
 
     <!--============== SCROLL UP =================-->
     <a href="#" class="scrollup" id="scroll-up">
-        <i class="ri-arrow-up-s-line"></i>
+      <i class="ri-arrow-up-s-line"></i>
     </a>
 
     <!--============== SCROLLREVEAL =================-->
@@ -533,8 +837,8 @@
     <!--============== EMAIL JS =================-->
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
-        <!--============== Footer =================-->
-        <script src="asset/JS/main.js"></script>
-
-</body>
+    <!--============== Footer =================-->
+    <script src="asset/JS/main.js"></script>
+    <script src="asset/JS/hi.js"></script>
+  </body>
 </html>

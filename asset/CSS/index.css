@@ -103,6 +103,8 @@ img{
     color: var(--title-color);
     cursor: pointer;
     transition: color .3s;
+    background-color: transparent;
+    border: none;
 }
 
 /* ============= Variables Dark theme =============== */
@@ -118,6 +120,7 @@ img{
 
 body.dark-theme {
     --first-color: hsl(31, 76%, 74%);
+    --black-color: hsl(14, 98%, 50%, 0.7);
     --button-color: hsl(0, 0%, 24%);
     --button-color-alt: hsl(0, 0%, 28%);
     --title-color: hsl(0, 0%, 95%);
@@ -605,6 +608,10 @@ body.dark-theme {
 
 .about__image{
     width: 220px;
+}
+
+.about__item {
+margin-bottom: 1rem;
 }
 
 .about__img{
@@ -1436,7 +1443,7 @@ body.dark-theme {
     }
 
     .about__description{
-        font-size: var(--h2-font-size);
+        font-size: var(--h3-font-size);
         margin-bottom: 2rem;
     }
 

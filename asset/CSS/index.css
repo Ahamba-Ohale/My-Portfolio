@@ -144,7 +144,7 @@ body.dark-theme {
 }
 
 .dark-theme :is(.home__arrow, .home__line, .about__line){
-    filter: none;
+    filter: invert(1);
 }
 
 .dark-theme .home__description b{
@@ -1158,6 +1158,7 @@ margin-bottom: 1rem;
 
     .contact__data{
         width: 350px;
+        height: 350px;
         padding: 4rem 1.5rem;
         margin-inline: auto;
     }
@@ -1177,7 +1178,7 @@ margin-bottom: 1rem;
     }
 
     .contact__social-arrow{
-        filter: invert(1);
+        filter: none;
     }
 
     .contact__social-description-1{
@@ -1189,7 +1190,7 @@ margin-bottom: 1rem;
     }
 
     .dark-theme .contact__social-arrow{
-        filter: none;
+        filter: invert(1);
     }
 }
 
@@ -1372,7 +1373,7 @@ margin-bottom: 1rem;
 
     .home__line{
         left: -15rem;
-        bottom: 4rem;
+        bottom: 1rem;
         width: 80px;
         rotate: 30deg;
     }
